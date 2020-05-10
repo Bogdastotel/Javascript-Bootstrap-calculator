@@ -1,0 +1,36 @@
+.container {
+    width: 450px !important;
+    /* border: 1px solid red; */
+}
+#keyboard {
+    border: 2px solid rgba(225, 225, 255, .9);
+    padding: 10px;
+    
+}
+
+#display {
+    grid-column: 1 / -1;
+    background-color: rgba(225, 225, 255, .75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 100px;
+}
+
+
+
+button {
+    display: inline-block;
+    /* margin: 10px !important; */
+    margin-top: 10px !important;
+
+    
+}
+
+
+
+
